@@ -7,9 +7,9 @@ public class Main {
         boolean running = true;
         while (running) {
             String menu = "Escull una opció:";
-            menu = menu + "\n 0) PR130mainPersonesHashmap";
-            menu = menu + "\n 1) PR131hashmap";
-            menu = menu + "\n 2) PR131mainEscriu";
+            menu = menu + "\n 0) PR140Main";
+            menu = menu + "\n 1) PR141Main";
+            menu = menu + "\n 2) PR142Main";
             // Adapta aquí les altres classes de l’exercici (PR122cat…)
             menu = menu + "\n 100) Sortir";
             System.out.println(menu);
@@ -18,7 +18,7 @@ public class Main {
             int opcio = Integer.valueOf(llegirLinia("Opció:"));
             try {
             switch (opcio) {
-                case 0: break;
+                case 0: PR140Main.Main(args);break;
                 case 1: break;
                 case 2: break;
                 // Adapta aquí les altres classes de l’exercici (PR122cat…)

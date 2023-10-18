@@ -19,7 +19,7 @@ public class Main {
             try {
             switch (opcio) {
                 case 0: PR140Main.Main(args);break;
-                case 1: break;
+                case 1: PR141Main.Main(args);break;
                 case 2: break;
                 // Adapta aquí les altres classes de l’exercici (PR122cat…)
                 case 100: running = false; break;
